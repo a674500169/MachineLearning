@@ -25,7 +25,7 @@ def _bernstein(key,seed=31):
 
 config = {"mul": _bernstein}
 
-def id_hash(str, nuniqs,times=3, strategy="mul"):
+def hash(id_str, nuniqs,times=3, strategy="mul"):
     """
     哈希主函数
     :param str: 编码字符串 string
@@ -35,7 +35,7 @@ def id_hash(str, nuniqs,times=3, strategy="mul"):
     """
     config = {"mul":_bernstein}
     hash_fn = config[strategy]
-    return hash_fn(str(str)) % (nuniqs * times)
+    return hash_fn(str(id_str)) % (nuniqs * times)
 
 
 
