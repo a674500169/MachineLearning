@@ -13,7 +13,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="cy_package",
+    name="CYUtil",
     version="0.0.1",
     keywords=("pip", "license", "licensetool", "tool", "gm"),
     description="the machine learning tools of y.chen.",
