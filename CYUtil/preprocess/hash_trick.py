@@ -9,8 +9,6 @@
 2023/2/10 11:12   chen.yi      1.0         None
 """
 
-
-
 def _bernstein(key,seed=31):
     """
     乘法哈希编码

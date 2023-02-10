@@ -9,4 +9,4 @@
 2023/2/10 11:02   chen.yi      1.0         None
 """
 
-from .hash_trick import id_hash
+from .hash_trick import hash_id
