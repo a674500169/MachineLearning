@@ -8,4 +8,4 @@
 ------------      -------    --------    -----------
 2023/2/10 11:02   chen.yi      1.0         None
 """
-from .recommensys import DeepFM
+from .rs import DeepFM
