@@ -6,15 +6,23 @@
 # 目录结构
 ```
 CYUtil  
+|── data
+    |—— hbase.py
+    |—— hive.py
+    |—— impala.py
+    |—— redis.py
 │—— model
 |   |—— cv
 |   |—— ml
 |   |—— nlp
 |   |—— rs
 |       |—— DeepFM.py
-
 |── preprocess
-    |—— hash_trick.py
+    |—— common.py
+    |—— encoder.py
+    |—— math.py
+|── train
+    |—— metric.py
 ```
 
 # 环境依赖&安装指南
@@ -42,7 +50,9 @@ model = DeepFM(cate_fea_nuniqs)
 # 内容更新
 
 #### v1.0.0:
-    1. 增加DeepFM推荐模型
-    2. 特征预处理id hash编码 
+    1. 增加推荐模型 DeepFM
+    2. 特征预处理
+    3. 数据库工具
+    4. 模型评估指标
 
 
