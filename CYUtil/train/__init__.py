@@ -6,10 +6,11 @@
  
 @Modify Time      @Author    @Version    @Desciption
 ------------      -------    --------    -----------
-2023/2/10 11:07   chen.yi      1.0         None
+2023/2/10 11:02   chen.yi      1.0         None
 """
-from .deepFM import DeepFM
+
+from .metric import AUCMetric
 
 __all__ = [
-    "DeepFM"
+    "AUCMetric"
 ]

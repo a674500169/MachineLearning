@@ -6,10 +6,13 @@
  
 @Modify Time      @Author    @Version    @Desciption
 ------------      -------    --------    -----------
-2023/2/10 11:07   chen.yi      1.0         None
+2023/2/10 11:02   chen.yi      1.0         None
 """
-from .deepFM import DeepFM
+
+from .hbase import hbaseUtil as hbase
+from .impala import impalaUtil as impala
+from .redis import redisUtil as redis
 
 __all__ = [
-    "DeepFM"
+    "hbase","impala","redis"
 ]

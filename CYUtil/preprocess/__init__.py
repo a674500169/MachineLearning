@@ -9,4 +9,10 @@
 2023/2/10 11:02   chen.yi      1.0         None
 """
 
-from .hash_trick import hash_id
+from .common import compressType
+from .encoder import HashEncode, LabelEncoderExt
+from .math import walson_ctr
+
+__all__ = [
+    "compressType",'HashEncode', 'LabelEncoderExt', 'walson_ctr'
+]
